@@ -1,0 +1,32 @@
+.a{
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: white;
+    font: inherit;
+    padding: 6px 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+.button{
+  
+    border: none; 
+    outline:seashell;
+    cursor: pointer;
+    border-color: black;
+    padding: 10px;
+    border-radius: 2em;
+    margin: 10px;
+        
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.block{
+    margin: 20px auto;
+    width: 50%;
+    text-align: center;
+    box-shadow: 0 2px 3px #ccc;
+    border: 1px solid #eee;
+    padding: 10px;
+    box-sizing: border-box;
+}
