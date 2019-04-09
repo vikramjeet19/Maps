@@ -72,7 +72,6 @@ class Main extends Component {
                 }));
             }
             const data = await Promise.all(promiseArray);
-            // console.log({ data });
             const maps = data.map(el => {
                 const temp = el.data.result.map(loc => loc.gps);
                 return temp;
